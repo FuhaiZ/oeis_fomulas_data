@@ -4,7 +4,7 @@ import time
 from zhipuai import ZhipuAI
 
 # 初始化智谱AI客户端
-client = ZhipuAI(api_key="548d6d16261444c09a44ccde9b4c2765.y5gYStq3lRe3uTH8")  # 请替换为你的实际API Key
+client = ZhipuAI(api_key="api key")  # 请替换为你的实际API Key
 
 
 def find_all_json_files(input_dir):
@@ -305,4 +305,5 @@ if __name__ == "__main__":
     if task_ids:
         print("\n🎉 任务提交完成！")
     else:
+
         print("\n❌ 任务提交失败，请检查错误信息。")
