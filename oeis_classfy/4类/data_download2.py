@@ -4,7 +4,7 @@ import time
 from zhipuai import ZhipuAI
 
 # 初始化智谱AI客户端 - 请使用与提交时相同的API密钥
-client = ZhipuAI(api_key="548d6d16261444c09a44ccde9b4c2765.y5gYStq3lRe3uTH8")
+client = ZhipuAI(api_key="api key")
 
 
 def check_and_download_results(task_id_file, output_base_dir="batch_results"):
@@ -387,4 +387,5 @@ if __name__ == "__main__":
         print("=" * 50)
         generate_summary_report(output_base_dir)
     else:
+
         print("❌ 无效选项，请输入 1, 2 或 3")
