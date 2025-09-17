@@ -304,6 +304,6 @@ if __name__ == "__main__":
     print(f"• 任务ID文件: {task_id_file}")
 
     if task_ids:
-        print("\n🎉 任务提交完成！你可以安全关闭电脑。")
+        print("\n🎉 任务提交完成！")
     else:
         print("\n❌ 任务提交失败，请检查错误信息。")
