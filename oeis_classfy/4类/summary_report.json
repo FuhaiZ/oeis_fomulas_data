@@ -1,0 +1,23 @@
+{
+  "total_tasks": 4,
+  "total_sequences": 175757,
+  "total_formulas": 391403,
+  "formula_type_counts": {
+    "closed_form": 46672,
+    "recurrence": 85161,
+    "generating_function": 68284,
+    "other": 191286
+  },
+  "formula_categories": {
+    "closed_form": "通项公式",
+    "recurrence": "递推公式",
+    "generating_function": "生成函数",
+    "other": "其他类型"
+  },
+  "formula_type_percentages": {
+    "closed_form": 11.92,
+    "recurrence": 21.76,
+    "generating_function": 17.45,
+    "other": 48.87
+  }
+}
